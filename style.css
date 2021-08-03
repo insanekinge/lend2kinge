@@ -1,0 +1,508 @@
+body {
+    margin: 0;
+    font-family: "RF Dewi", serif;
+    font-weight: 420;
+}
+
+.section {
+    padding: 0 17px 23px;
+}
+
+.first {
+    color: white;
+    background: url('../syn2/img/bigcyrcles.svg') right -150px top 80% / 300px no-repeat, #1822B7 url('../syn2/img/bigcrugfull.svg') center top 15% / 320px no-repeat;
+}
+
+.first__telephone {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 720;
+}
+
+._point {
+    background-color: #fff;
+    color: #1822B7;
+}
+
+.header__img_4 {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 720;
+}
+
+.first__content {
+    margin-top: 125px;
+}
+
+.first__header {
+    padding-top: 20px;
+}
+
+.first__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first__cover {
+    margin-bottom: 50px;
+}
+
+.first__caption {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.first__caption_huge {
+    word-wrap: break-word;
+    text-transform: uppercase;
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: 903;
+}
+
+.first__list {
+    padding-right: 121px;
+}
+
+.first__subject {
+    color: rgba(255, 255, 255, .7);
+    margin-bottom: 27px;
+}
+
+.first__strong {
+    display: block;
+    color: #fff;
+}
+
+@media (min-width:768px) {
+    .section.section_box,
+    .section__inside {
+        max-width: 847px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .first__header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__img {
+        margin-left: 12px;
+        max-width: 100%;
+    }
+    .first__telephone {
+        display: flex;
+    }
+    .header__img_4 {
+        display: flex;
+    }
+    .first {
+        height: 630px;
+        background: url('../syn2/img/bigcyrcles.svg') right 100px top 30% / 300px no-repeat, #1822B7 url('../syn2/img/bigcrugfull.svg') left 10% bottom -30% / 530px no-repeat;
+    }
+    .first__content {
+        margin-top: 245px;
+    }
+    .first__caption {
+        font-size: 22px;
+    }
+    .first__caption_huge {
+        font-size: 63px;
+        word-break: normal;
+    }
+    .first__list {
+        display: flex;
+        padding-right: 0;
+        justify-content: space-between;
+        position: relative;
+    }
+    .first__list::before {
+        content: '';
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        left: 30%;
+        top: 50%;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.3);
+        margin-right: 20px;
+    }
+    .first__list::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.3);
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+    .first {
+        min-height: 100vh;
+        background: url('../syn2/img/bigcrugfull.svg') left 70px bottom -50px / 750px no-repeat, #1822B7 url('../syn2/img/bigcyrcles.svg') right 120px top 150px / 388px no-repeat;
+    }
+    .first__content {
+        min-height: 462px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    .section {
+        padding: 40px 100px 0px;
+    }
+    .section.section_box,
+    .section__inside {
+        max-width: 1200px;
+    }
+    .first__caption_huge {
+        font-size: 90px;
+    }
+    .header__img:nth-child(2) {
+        display: none;
+    }
+    .header__img:nth-child(3) {
+        display: none;
+    }
+    .first__list::after {
+        background-color: #EAA853;
+    }
+    .first__list::before {
+        background-color: #EAA853;
+    }
+    .first__list {
+        min-width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.about__text {
+    line-height: 160%;
+    color: #02020D;
+    margin-bottom: 44px;
+}
+
+.h2 {
+    font-weight: 900;
+    background: url('../syn2/img/cyrcles3.png') left 0 top 70px / 67px no-repeat;
+    margin-top: 44px;
+    font-size: 32px;
+    padding-bottom: 50px;
+}
+
+.about__span {
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.about__gendir {
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.about__mission {
+    border: 1px solid #E3A655;
+    margin-bottom: 50px;
+    padding: 30px 20px;
+    border-radius: 13px;
+}
+
+.h3 {
+    font-weight: 900;
+    line-height: 100%;
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.mission__p {
+    margin-bottom: 20px;
+    line-height: 160%;
+}
+
+@media (min-width: 768px) {
+    .about__company {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 76px;
+    }
+    .about__text {
+        max-width: 501px;
+        padding-top: 40px;
+    }
+    .about__mission {
+        padding: 50px 45px;
+        background: url('../syn2/fonts/missioncyrcl.svg') right -250px center / 525px no-repeat;
+    }
+    .mission__content {
+        max-width: 65%;
+    }
+    .h2 {
+        max-width: 40%;
+        white-space: nowrap;
+        padding-right: 20px;
+    }
+    .about__text {
+        max-width: 60%;
+    }
+}
+
+.nap {
+    background: #F3F4FB;
+    padding-bottom: 40px;
+}
+
+.nap__h3 {
+    padding: 44px 20px 25px 20px;
+    margin-bottom: 0;
+}
+
+.nap__object {
+    margin: 0 10px 20px;
+    margin-bottom: 45px;
+}
+
+.nap__text {
+    padding-top: 86px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.nap__text::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 75px;
+    top: 0;
+    width: 75px;
+    background: #fff center center / 44px no-repeat;
+    border-radius: 50%;
+}
+
+.nap__text:nth-child(1)::before {
+    background-image: url('../syn2/img/block_4_1.svg')
+}
+
+.nap__text:nth-child(2)::before {
+    background-image: url('../syn2/img/block_4_2.svg')
+}
+
+.nap__text:nth-child(3)::before {
+    background-image: url('../syn2/img/block_4_3.svg')
+}
+
+.nap__text:nth-child(4) {
+    display: none;
+}
+
+.nap__text:nth-child(5) {
+    display: none;
+}
+
+.nap__text:nth-child(6) {
+    display: none;
+}
+
+.nap__text:nth-child(7) {
+    display: none;
+}
+
+.nap__text:nth-child(8) {
+    display: none;
+}
+
+.nap__button {
+    margin-top: 50px;
+}
+
+.button {
+    max-width: 252px;
+    padding: 11px 25px;
+    border: #1822B7 solid 2px;
+    border-radius: 14px;
+    text-align: center;
+    color: #1822B7;
+    font-weight: 704;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .nap__object {
+        display: flex;
+        flex-wrap: wrap;
+        background: url('../syn2/img/napcyrcles.svg') right 0 bottom 0 / 226px 131px no-repeat #F3F4FB;
+    }
+    .nap__text {
+        margin-right: 5px;
+        max-width: 32%;
+    }
+    .nap__text:nth-child(4) {
+        display: block;
+    }
+    .nap__text:nth-child(5) {
+        display: block;
+    }
+    .nap__text:nth-child(6) {
+        display: block;
+    }
+    .nap__text:nth-child(7) {
+        display: block;
+    }
+    .nap__text:nth-child(8) {
+        display: block;
+    }
+    .nap__text:nth-child(4)::before {
+        display: block;
+        background-image: url('../syn2/img/block_4_4.svg')
+    }
+    .nap__text:nth-child(5)::before {
+        display: block;
+        background-image: url('../syn2/img/block_4_5.svg')
+    }
+    .nap__text:nth-child(6)::before {
+        display: block;
+        background-image: url('../syn2/img/block_4_6.svg')
+    }
+    .nap__text:nth-child(7)::before {
+        display: block;
+        background-image: url('../syn2/img/block_4_7.svg')
+    }
+    .nap__text:nth-child(8)::before {
+        display: block;
+        background-image: url('../syn2/img/block_4_8.svg')
+    }
+    .activiti__object {
+        background: url('..syn2/img/napcyrcles.svg') right 0 bottom 0 / 226px 131px no-repeat;
+    }
+    .nap__button {
+        display: none;
+    }
+}
+
+.uchred__h2 {
+    margin-left: 20px;
+}
+
+.uchred__span {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.uchred__p {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+    .uchred {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .uchred__content {
+        max-width: 500px;
+        padding-top: 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .uchred {
+        padding-bottom: 40px;
+    }
+    .uchred__content {
+        max-width: 60%;
+    }
+    .uchred__h2 {
+        max-width: 40%
+    }
+}
+
+.footer {
+    background: rgba(24, 34, 183, 0.05);
+    padding: 30px 50px;
+    font-size: 12px;
+}
+
+.footer__in {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(2, 2, 13, 0.6);
+}
+
+.footer__date {
+    margin-bottom: 20px;
+}
+
+.footer__polit {
+    text-decoration-line: underline;
+}
+
+@media (min-width: 768px) {
+    .footer__in {
+        max-width: 840px;
+        margin-right: auto;
+        margin-left: auto;
+        flex-direction: row;
+    }
+    .footer__date {
+        margin-right: 100px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer__in {
+        max-width: 1200px;
+        margin-right: auto;
+        flex-direction: row;
+        margin-left: auto;
+    }
+    .footer__date {
+        margin-right: 300px;
+        margin-bottom: 0;
+    }
+}
+
+@font-face {
+    font-family: 'RF Dewi';
+    src: local('RF Dewi Regular'), local('RF-Dewi-Regular'), url('../syn2/fonts/RFDewi-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Dewi';
+    src: local('RF Dewi Expanded Black'), local('RF-Dewi-Expanded-Black'), url('../syn2/fonts/RFDewiExpanded-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Dewi';
+    src: local('RF Dewi Bold'), local('RF-Dewi-Bold'), url('../syn2/fonts/RFDewi-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Dewi';
+    src: local('RF Dewi Semibold'), local('RF-Dewi-Semibold'), url('../syn2/fonts/RFDewi-Semibold.woff2') format('woff2'), ;
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Dewi';
+    src: local('RF Dewi Black'), local('RF-Dewi-Black'), url('../syn2/fonts/RFDewi-Black.woff2') format('woff2'), url('../syn2/fonts/RFDewi-Black.woff') format('woff'), url('../syn2/fonts/RFDewi-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
